@@ -1,0 +1,242 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .product-page {
+    display: flex;
+    padding: 40px;
+    gap: 40px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .product-gallery {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .thumbnails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 500px;
+    overflow-y: auto;
+  }
+  
+  .thumbnail {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .thumbnail.active,
+  .thumbnail:hover {
+    border-color: #964B00;
+  }
+  
+  .main-image {
+    flex: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-image img {
+    width: 550px;
+    height: 550px;
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px 20px;
+  }
+  
+  .product-info h2 {
+    font-size: 28px;
+    margin-bottom: 8px;
+  }
+  
+  .product-description {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .product-details {
+    list-style: disc;
+    padding-left: 20px;
+    color: #444;
+  }
+  
+  .pricing {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 18px;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .discounted-price {
+    color: #964B00;
+    font-weight: bold;
+  }
+  
+  .discount-off {
+    color: #d32f2f;
+    font-size: 15px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .btn-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
+  }
+  
+  /* Add to Cart */
+  .btn-cart {
+    flex: 1;
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn-cart:hover {
+    background-color: #1a1a1a;
+    transform: scale(1.03);
+  }
+  
+  .btn-cart:active {
+    transform: scale(0.97);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Wishlist */
+  .btn-wishlist {
+    background-color: white;
+    color: #964B00;
+    border: 2px solid #964B00;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn-wishlist:hover {
+    background-color: #f2f2f2;
+    transform: scale(1.1);
+  }
+  
+  .btn-wishlist:active {
+    transform: scale(0.95);
+    background-color: #e0e0e0;
+  }
+  
+  /* Buy Now */
+  .btn-buy {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .btn-buy:hover {
+    background-color: #1a1a1a;
+    transform: scale(1.03);
+  }
+  
+  .btn-buy:active {
+    transform: scale(0.97);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .product-page {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .product-gallery {
+      flex-direction: column;
+    }
+  
+    .thumbnails {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .main-image img {
+      max-height: 300px;
+      width: 100%;
+    }
+  }
+  .related-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .related-card {
+    flex: 1 1 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .related-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .related-img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  

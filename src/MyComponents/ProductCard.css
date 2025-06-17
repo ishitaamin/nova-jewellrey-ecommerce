@@ -1,0 +1,134 @@
+
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 320px;
+    height: 320px;
+    
+    
+    border-radius: 4px;
+}
+
+.product-name {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    font-family: Poppins, sans-serif;
+    margin-left: 10px;
+    padding-top: 0px;
+    text-decoration: none;
+    
+}
+.like-button.liked .icon-h {
+  color: red;
+}
+
+.icon-h {
+  color: grey;
+  transition: color 0.3s ease;
+}
+
+.icon-h.liked {
+  color: red;
+}
+
+
+.product-price {
+    font-size: 14px;
+    text-align: left;
+    color: #555;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.discounted-price {
+    color: #e74c3c;
+    font-weight: bold;
+    text-align: left;
+    font-size: 16px;
+    
+}
+
+.original-price {
+    text-decoration: line-through;
+    margin-left: 8px;
+    color: #999;
+    font-size: 16px;
+    
+}
+
+.product-rating {
+    font-size: 14px;
+    color: #f1c40f;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.product-stock {
+    font-size: 14px;
+    color: #27ae60;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+.like-button-container {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+  }
+  
+ 
+  
+  .like-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .icon-h {
+    color: #aaa;
+    font-size: 1.3rem;
+    transition: color 0.3s ease;
+  }
+  
+  .icon-h.liked {
+    color: #e63946; /* Red for liked */
+  }
+ 
+  
+  .like-button:hover .icon-h {
+    color: #c0392b;
+    transform: scale(1.2);
+  }
+  
+  .product-card {
+    position: relative; /* Enable absolute positioning for like button */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 320px; /* Fixed width for each card */
+    flex: 0 0 auto; /* Prevent shrinking */
+    height: 480px;
+  }
+  
+  .product-grid {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 20px;
+    scroll-behavior: smooth;
+    margin-left: 10px;
+    height: 500px;
+    padding-top: 10px;
+  }
+  
+  .product-grid::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+  

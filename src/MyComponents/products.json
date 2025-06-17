@@ -1,0 +1,1042 @@
+
+
+  [
+    {
+      "id": 1,
+      "name": "Paper Clip Style Bracelet",
+      "category": "Bracelet",
+      "subcategory": "Office Wear",
+      "price": 3000,
+      "discountedPrice": 2700,
+      "image": "brace1.jpg",
+      "rating": 4.7,
+      "stock": 15,
+      "cato": "Pendant",
+      "description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+      "images": [
+        "insidebrace1.jpg",
+        "insidebrace2.jpg",
+        "insidebrace3.jpg",
+        "brace1.jpg"
+      ]
+    }
+      ,
+      {
+        "id": 2,
+        "name": "Crystal Love Bangle Bracelet",
+        "category": "Bracelet",
+        "subcategory": "Date Night",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "brace2.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Pendant","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insidebrace1.jpg",
+      "insidebrace2.jpg",
+      "insidebrace3.jpg"
+    ]
+      }, 
+      {
+        "id": 3,
+        "name": "Nail Bangle Bracelet",
+        "category": "Bracelet",
+        "subcategory": "Date Night",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "brace3.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Pendant","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insidebrace1.jpg",
+      "insidebrace2.jpg",
+      "insidebrace3.jpg"
+    ]
+      }, 
+      {
+        "id": 4,
+        "name": "Multi Stone Q Clasp Bracelet",
+        "category": "Bracelet",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "brace4.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Pearl","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insidebrace1.jpg",
+      "insidebrace2.jpg",
+      "insidebrace3.jpg"
+    ]
+      }, 
+      {
+        "id": 5,
+        "name": "Diamond Allure Bangle Bracelet",
+        "category": "Bracelet",
+        "subcategory": "Coffee Run",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "brace5.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Pearl","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insidebrace1.jpg",
+      "insidebrace2.jpg",
+      "insidebrace3.jpg"
+    ]
+      }, 
+      {
+        "id": 6,
+        "name": "Gilded Haze Bangle Bracelet",
+        "category": "Bracelet",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "brace6.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Initial","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insidebrace1.jpg",
+      "insidebrace2.jpg",
+      "insidebrace3.jpg"
+    ]
+      }, 
+      {
+        "id": 7,
+        "name": "Small Bar Bracelet",
+        "category": "Bracelet",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "brace7.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Initial","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insidebrace1.jpg",
+      "insidebrace2.jpg",
+      "insidebrace3.jpg"
+    ]
+      }, 
+      {
+        "id": 8,
+        "name": "Infinity Charm Bracelet",
+        "category": "Bracelet",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "brace8.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Emerald","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insidebrace1.jpg",
+      "insidebrace2.jpg",
+      "insidebrace3.jpg"
+    ]
+      }, 
+      {
+        "id": 9,
+        "name": "Butterfly Charm Cuff Bracelet",
+        "category": "Bracelet",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "brace9.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Emerald","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insidebrace1.jpg",
+      "insidebrace2.jpg",
+      "insidebrace3.jpg"
+    ]
+      }, 
+      {
+        "id": 10,
+        "name": "Hearts Charm Bracelet",
+        "category": "Bracelet",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "brace10.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Emerald","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insidebrace1.jpg",
+      "insidebrace2.jpg",
+      "insidebrace3.jpg"
+    ]
+      }, 
+      {
+        "id": 11,
+        "name": "Eternal Lotus 925 Sterling Silver Mangalsutra",
+        "category": "Mangalsutra",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "man1.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Initial","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insideman1.jpg",
+      "insideman2.jpg",
+      "insideman3.jpg"
+    ]
+      }, 
+
+
+      {
+        "id": 12,
+        "name": "Mandala 925 Silver Mangalsutra",
+        "category": "Mangalsutra",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "man2.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Initial","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insideman1.jpg",
+      "insideman2.jpg",
+      "insideman3.jpg"
+    ]
+      }, 
+      {
+        "id": 13,
+        "name": "Three Petals Of Love 925 Silver Mangalsutra",
+        "category": "Mangalsutra",
+        "subcategory": "Office Wear",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "man3.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Emerald","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insideman1.jpg",
+      "insideman2.jpg",
+      "insideman3.jpg"
+    ]
+      }, 
+      {
+        "id": 14,
+        "name": "Eternal Bloom 925 Silver Mangalsutra",
+        "category": "Mangalsutra",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "man4.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Emerald","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insideman1.jpg",
+      "insideman2.jpg",
+      "insideman3.jpg"
+    ]
+      }, 
+      {
+        "id": 15,
+        "name": "Double Layred Pendant 925 Silver Mangalsutra",
+        "category": "Mangalsutra",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "man5.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Emerald","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "insideman1.jpg",
+      "insideman2.jpg",
+      "insideman3.jpg"
+    ]
+      }, 
+
+
+      {
+        "id": 16,
+        "name": "Classic Emerald Necklace",
+        "category": "Necklace",
+        "subcategory": "Date Night",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "neck1.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Pendant","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "neck10.jpg",
+      "neck11.jpg",
+      "neck12.jpg"
+    ]
+      }, 
+      {
+        "id": 17,
+        "name": "Delicate Diamond Studded Necklace",
+        "category": "Necklace",
+        "subcategory": "Date Night",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "neck2.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Pearl","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "neck10.jpg",
+      "neck11.jpg",
+      "neck12.jpg"
+    ]
+      }, 
+      {
+        "id": 18,
+        "name": "Plain Chain Two Layer Necklace",
+        "category": "Necklace",
+        "subcategory": "Coffee Run",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "neck3.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Initial","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "neck10.jpg",
+      "neck11.jpg",
+      "neck12.jpg"
+    ]
+      }, 
+      {
+        "id": 19,
+        "name": "Paris Heart Necklace",
+        "category": "Necklace",
+        "subcategory": "Office Wear",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "neck4.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Initial","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "neck10.jpg",
+      "neck11.jpg",
+      "neck12.jpg"
+    ]
+      }, 
+      {
+        "id": 20,
+        "name": "Black Vixen Necklace",
+        "category": "Necklace",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "neck5.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Emerald","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "neck10.jpg",
+      "neck11.jpg",
+      "neck12.jpg"
+    ]
+      }, 
+      {
+        "id": 21,
+        "name": "Small Letter Necklace",
+        "category": "Necklace",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "neck6.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Emerald","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "neck10.jpg",
+      "neck11.jpg",
+      "neck12.jpg"
+    ]
+      }, 
+      {
+        "id": 22,
+        "name": "Heart Rays Necklace",
+        "category": "Necklace",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "neck7.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Pearl","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "neck10.jpg",
+      "neck11.jpg",
+      "neck12.jpg"
+    ]
+      }, 
+      {
+        "id": 23,
+        "name": "Rope N Snake Chain",
+        "category": "Necklace",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "neck8.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Pearl","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "neck10.jpg",
+      "neck11.jpg",
+      "neck12.jpg"
+    ]
+      }, 
+      {
+        "id": 24,
+        "name": "Daisy Flower Necklace",
+        "category": "Necklace",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "neck9.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Pendant","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "neck10.jpg",
+      "neck11.jpg",
+      "neck12.jpg"
+    ]
+      }, 
+
+
+
+
+
+      {
+        "id": 25,
+        "name": "Paper Clip Style Bracelet",
+        "category": "Earring",
+        "subcategory": "Date Night",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "earring1.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Hoops","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "earring11.jpg",
+      "earring12.jpg",
+      "earring13.jpg"
+    ]
+      }, 
+      {
+        "id": 26,
+        "name": "Athena Solitaire Hoop Earrings",
+        "category": "Earring",
+        "subcategory": "Coffee Run",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "earring2.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Statement","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "earring11.jpg",
+      "earring12.jpg",
+      "earring13.jpg"
+    ]
+      }, 
+      {
+        "id": 27,
+        "name": "Small Heart Hoop Earrings",
+        "category": "Earring",
+        "subcategory": "Office Wear",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "earring3.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Statement","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "earring11.jpg",
+      "earring12.jpg",
+      "earring13.jpg"
+    ]
+      }, 
+      {
+        "id": 28,
+        "name": "Emerald Hoop Earrings",
+        "category": "Earring",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "earring4.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Hoops","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "earring11.jpg",
+      "earring12.jpg",
+      "earring13.jpg"
+    ]
+      }, 
+      {
+        "id": 29,
+        "name": "Curvy Embrace Earrings",
+        "category": "Earring",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "earring5.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Hoops","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "earring11.jpg",
+      "earring12.jpg",
+      "earring13.jpg"
+    ]
+      }, 
+      {
+        "id": 30,
+        "name": "Dainty Threader Dangle Earrings",
+        "category": "Earring",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "earring6.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Pearl","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "earring11.jpg",
+      "earring12.jpg",
+      "earring13.jpg"
+    ]
+      }, 
+      {
+        "id": 31,
+        "name": "Gold Heart Hoop Earrings",
+        "category": "Earring",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "earring7.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Pearl","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "earring11.jpg",
+      "earring12.jpg",
+      "earring13.jpg"
+    ]
+      }, 
+      {
+        "id": 32,
+        "name": "Elegant Interlinked Stud Earrings",
+        "category": "Earring",
+        "subcategory": "Date Night",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "earring8.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Hoops","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "earring11.jpg",
+      "earring12.jpg",
+      "earring13.jpg"
+    ]
+      }, 
+      {
+        "id": 33,
+        "name": "Classic Round Hoop Earrings",
+        "category": "Earring",
+        "subcategory": "Office Wear",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "earring9.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Emerald","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "earring11.jpg",
+      "earring12.jpg",
+      "earring13.jpg"
+    ]
+      }, 
+      {
+        "id": 34,
+        "name": "Solitaire Drop Hoop Earrings",
+        "category": "Earring",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "earring10.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"Emerald",
+        "description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "earring11.jpg",
+      "earring12.jpg",
+      "earring13.jpg"
+    ]
+      }, 
+      {
+        "id": 35,
+        "name": "Twist Cross Ring",
+        "category": "Ring",
+        "subcategory": "Coffee Run",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "ring1.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"1 Layer",
+        "description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "ring8.jpg",
+      "ring9.jpg",
+      "ring10.jpg"
+    ]
+      }, 
+      {
+        "id": 36,
+        "name": "Criss Cross Ring",
+        "category": "Ring",
+        "subcategory": "Office Wear",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "ring2.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"1 Layer",
+        "description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "ring8.jpg",
+      "ring9.jpg",
+      "ring10.jpg"
+    ]
+      }, 
+      {
+        "id": 37,
+        "name": "Love Hug Ring",
+        "category": "Ring",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "ring3.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"1 Layer",
+        "description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "ring8.jpg",
+      "ring9.jpg",
+      "ring10.jpg"
+    ]
+      }, 
+      {
+        "id": 38,
+        "name": "Golden Serpent Ring",
+        "category": "Ring",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "ring4.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"1 Layer","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "ring8.jpg",
+      "ring9.jpg",
+      "ring10.jpg"
+    ]
+      }, 
+      {
+        "id": 39,
+        "name": "Black Onyx Ring",
+        "category": "Ring",
+        "subcategory": "Date Night",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "ring5.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"2 Layer","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "ring8.jpg",
+      "ring9.jpg",
+      "ring10.jpg"
+    ]
+      }, 
+      {
+        "id": 40,
+        "name": "Gold Hearts Band Ring",
+        "category": "Ring",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "ring6.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"2 Layer","description": "Subtle elegance meets everyday charm with this Paper Clip Style Bracelet. Perfect for office or casual wear, this piece brings a minimal yet classy vibe to your outfit.",
+      "details": [
+        "Size -Fully Adjustable for a Comfortable Fit",
+        "Color -Elegant Silver Finish",
+        "Plating -Premium 18k White Gold",
+        "Material -Durable & Hypoallergenic Stainless Steel",
+        "Packaging - Comes in a Luxe Handcrafted Gift Box",
+        "Special Note - Each piece is handmade, slight variations make yours unique"
+      ],
+    "images": [
+      "ring8.jpg",
+      "ring9.jpg",
+      "ring10.jpg"
+    ]
+      }, 
+      {
+        "id": 41,
+        "name": "Cubic Tiara Wave Ring",
+        "category": "Ring",
+        "subcategory": "",
+        "price": 3000,
+        "discountedPrice": 2700,
+        "image": "ring7.jpg",
+        "rating": 4.7,
+        "stock": 15,
+        "cato" :"2 Layer","description": "Being in love with yourself is the most beautiful thing...",
+        "details": [
+          "Size - Adjustable",
+          "Colour - Silver",
+          "Material - Stainless Steel"
+        ],
+        "images": [
+          "ring8.jpg",
+          "ring9.jpg",
+          "ring10.jpg"
+        ]
+      }
+]

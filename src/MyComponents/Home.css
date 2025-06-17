@@ -1,0 +1,108 @@
+/* General Styles */
+.br {
+    border: solid 0.001px;
+    color: #707070;
+    margin-top: 30px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.circle-images {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    
+}
+.img-con{
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+    
+}
+.title2{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.circle-image-container {
+    
+    
+    text-align: center; /* Centers text horizontally */
+    width: 265px; 
+    height: auto; /* Adjusts dynamically based on content */
+    margin-top: 30px;
+}
+
+.circle-image {
+    width: 220px; /* Size of the circular image */
+    height: 220px;
+    object-fit: cover; /* Ensures the image fits within the circle */
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #ddd; /* Subtle border around the image */
+    margin-bottom: 10px; /* Adds space between the image and text */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.circle-image:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow on hover */
+}
+
+.circle-image-text {
+    font-size: 18px; /* Adjust font size */
+    color: #333; /* Custom text color */
+    font-family: 'Poppins', serif; /* Consistent font */
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.2; /* Adjust line height for better readability */
+    margin: 0; /* Ensure no unwanted margins */
+}
+
+.circle-image-text:hover {
+    color: #707070; /* Subtle hover effect for the text */
+}
+
+
+.box2{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+}
+.box{
+    
+    background-color: #333;
+    border-radius: 20px;
+    height: 600px;
+    width: 420px;
+}
+
+.box:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow on hover */
+}
+
+.box3{
+    display: flex;
+    overflow-x: auto; 
+    gap: 20px;
+    scroll-behavior: smooth;
+    margin-inline-start: auto;
+    height:360px;
+    padding-top: 50px;
+}
+
+.box4{
+    height: 360px;
+    width: 360px;
+}
