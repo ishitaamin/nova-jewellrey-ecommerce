@@ -1,6 +1,6 @@
-# 💎 NOVA – Jewelry E-Commerce Web App
+# 💎 NOVA – Jewellery E-Commerce Web App
 
-**NOVA** is a responsive single-page e-commerce web application built using **React.js**, designed to showcase jewelry products dynamically. It allows users to browse, view detailed product information, and manage a personalized wishlist. The project emphasizes component reuse, application state management, and clean UI/UX design.
+**NOVA** is a responsive single-page e-commerce web application built using **React.js**, designed to showcase jewellery products dynamically. It allows users to browse, view detailed product information, and manage a personalized wishlist. The project emphasizes component reuse, application state management, and clean UI/UX design.
 
 ---
 
