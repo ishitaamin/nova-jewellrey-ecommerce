@@ -38,6 +38,11 @@
 - 📱 Fully responsive and optimized for all screens  
 - 🧩 Clean, modular components for scalability  
 
+
+## 💡 Inspiration
+
+This project was built to deepen my understanding of React.js and enhance my frontend development skills. It helped me explore concepts like component-based architecture, state management, routing, and user interaction in a real-world e-commerce scenario.
+
 ---
 ## 🙋‍♀️ Author
 
@@ -54,6 +59,3 @@
 
 
 
-## 💡 Inspiration
-
-This project was built to deepen my understanding of React.js and enhance my frontend development skills. It helped me explore concepts like component-based architecture, state management, routing, and user interaction in a real-world e-commerce scenario.
