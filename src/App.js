@@ -13,6 +13,9 @@ import Login from './MyComponents/login';
 import Signup from './MyComponents/signup';
 import Like from './MyComponents/Like';
 import products from './MyComponents/products.json';
+import Cart from "./MyComponents/Cart";
+import Checkout from './MyComponents/Checkout';
+
 
 function App() {
   const [likedProducts, setLikedProducts] = useState([]);
@@ -37,6 +40,37 @@ function App() {
     }
   };
 
+// Cart State
+const [cart, setCart] = useState([]);
+
+// Load cart from localStorage on first render
+useEffect(() => {
+  const savedCart = localStorage.getItem('cart');
+  if (savedCart) {
+    setCart(JSON.parse(savedCart));
+  }
+}, []);
+
+// Save cart to localStorage whenever it changes
+useEffect(() => {
+  localStorage.setItem('cart', JSON.stringify(cart));
+}, [cart]);
+
+// Add to Cart Function
+const handleAddToCart = (product) => {
+  const alreadyInCart = cart.some((p) => p.id === product.id);
+  if (!alreadyInCart) {
+    setCart((prevCart) => [...prevCart, product]);
+  }
+};
+
+// Remove from Cart Function
+const handleRemoveFromCart = (id) => {
+  setCart((prevCart) => prevCart.filter((item) => item.id !== id));
+};
+
+
+
   const AppContent = () => {
     const location = useLocation();
     const isAuthRoute = location.pathname === '/login' || location.pathname === '/signup';
@@ -60,7 +94,10 @@ function App() {
           <Route path="/necklace" element={<Necklace likedProducts={likedProducts}onLike={handleLike}/>} />
           <Route path="/rings" element={<Ring likedProducts={likedProducts}onLike={handleLike}/>} />
           <Route path="/earrings" element={<Earring likedProducts={likedProducts}onLike={handleLike}/>} />
-          <Route path="/product/:productId" element={<ProductPage />} />
+          <Route path="/product/:productId" element={<ProductPage likedProducts={likedProducts}onLike={handleLike} onAddToCart={handleAddToCart} />} />
+          <Route path="/cart" element={<Cart cartItems={cart} onRemoveFromCart={handleRemoveFromCart}/>}/>
+          <Route path="/checkout" element={<Checkout cart={cart} onClearCart={() => setCart([])} />} />
+
           <Route
             path="/like"
             element={
@@ -68,6 +105,7 @@ function App() {
                 likedProducts={likedProducts}
                 onLike={handleLike}
               />
+              
             }
           />
           <Route path="/login" element={<Login />} />

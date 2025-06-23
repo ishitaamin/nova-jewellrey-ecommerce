@@ -5,10 +5,10 @@ import "./ProductPage.css";
 import ProductCard from "./ProductCard";
 import { FaTruck, FaGem, FaUndoAlt } from 'react-icons/fa';
 
-const ProductPage = ({ onLike, likedProducts }) => {
+const ProductPage = ({ onLike, likedProducts ,onAddToCart}) => {
   const { productId } = useParams();
   const productData = productList.find((p) => p.id === Number(productId));
-
+  const isLiked = likedProducts?.some((p) => p.id === productData.id);
   const [selectedImage, setSelectedImage] = useState("");
 
   useEffect(() => {
@@ -72,13 +72,13 @@ const ProductPage = ({ onLike, likedProducts }) => {
 
           <div className="buttons">
             <div className="btn-row">
-              <button className="btn-cart">Add to Cart</button>
+              <button className="btn-cart" onClick={() => onAddToCart(productData)}>Add to Cart</button>
               <button
-                className="btn-wishlist"
-                onClick={() => onLike(productData)}
-              >
-                ❤️
-              </button>
+  className={`btn-wishlist ${isLiked ? 'liked' : ''}`}
+  onClick={() => onLike(productData)}
+>
+  {isLiked ? '❤️' : '🤍'}
+</button>
             </div>
             <button className="btn-buy">Buy it Now</button>
           </div>
