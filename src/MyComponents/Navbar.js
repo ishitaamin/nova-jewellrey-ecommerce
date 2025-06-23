@@ -29,7 +29,7 @@ const Navbar = () => {
           <Link to="/like" aria-label="Wishlist"><FaHeart className="icon-h" /></Link>
         </li>
         <li>
-          <Link to="/profile" aria-label="Profile"><FaUserCircle className="icon-p" /></Link>
+          <Link to="/login" aria-label="Profile"><FaUserCircle className="icon-p" /></Link>
         </li>
         <li>
           <Link to="/cart" aria-label="Cart"><FaShoppingCart className="icon-c" /></Link>

@@ -7,7 +7,7 @@ import { FaTruck, FaGem, FaUndoAlt } from 'react-icons/fa'
 
 const braceletFilters = ["All", "Initial", "Emerald"];
 
-const Bracelet = (onLike, likedProducts) => {
+const Bracelet = ({onLike, likedProducts}) => {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);

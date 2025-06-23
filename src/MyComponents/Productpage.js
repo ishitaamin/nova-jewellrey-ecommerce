@@ -5,7 +5,7 @@ import "./ProductPage.css";
 import ProductCard from "./ProductCard";
 import { FaTruck, FaGem, FaUndoAlt } from 'react-icons/fa';
 
-const ProductPage = ({ onLike, likedProducts ,onAddToCart}) => {
+const ProductPage = ({ onLike, likedProducts, onAddToCart }) => {
   const { productId } = useParams();
   const productData = productList.find((p) => p.id === Number(productId));
   const isLiked = likedProducts?.some((p) => p.id === productData.id);
@@ -16,9 +16,7 @@ const ProductPage = ({ onLike, likedProducts ,onAddToCart}) => {
   }, []);
 
   useEffect(() => {
-    if (productData) {
-      setSelectedImage(productData.image);
-    }
+    if (productData) setSelectedImage(productData.image);
   }, [productData]);
 
   if (!productData) return <div>Product not found.</div>;
@@ -26,7 +24,6 @@ const ProductPage = ({ onLike, likedProducts ,onAddToCart}) => {
   return (
     <div>
       <div className="product-page">
-        {/* Gallery */}
         <div className="product-gallery">
           <div className="thumbnails">
             {[...productData.images, productData.image].map((img, index) => (
@@ -41,24 +38,17 @@ const ProductPage = ({ onLike, likedProducts ,onAddToCart}) => {
           </div>
 
           <div className="main-image">
-            {selectedImage && (
-              <img src={require(`./images/${selectedImage}`)} alt="main" />
-            )}
+            {selectedImage && <img src={require(`./images/${selectedImage}`)} alt="main" />}
           </div>
         </div>
 
-        {/* Info */}
         <div className="product-info">
           <h2>{productData.name}</h2>
           <div className="pricing">
             <span className="original-price">₹{productData.price}</span>
             <span className="discounted-price">₹{productData.discountedPrice}</span>
             <span className="discount-off">
-              (
-              {Math.round(
-                ((productData.price - productData.discountedPrice) / productData.price) * 100
-              )}
-              % OFF)
+              ({Math.round(((productData.price - productData.discountedPrice) / productData.price) * 100)}% OFF)
             </span>
           </div>
 
@@ -74,18 +64,26 @@ const ProductPage = ({ onLike, likedProducts ,onAddToCart}) => {
             <div className="btn-row">
               <button className="btn-cart" onClick={() => onAddToCart(productData)}>Add to Cart</button>
               <button
-  className={`btn-wishlist ${isLiked ? 'liked' : ''}`}
-  onClick={() => onLike(productData)}
->
-  {isLiked ? '❤️' : '🤍'}
-</button>
+                className={`btn-wishlist ${isLiked ? 'liked' : ''}`}
+                onClick={() => onLike(productData)}
+              >
+                {isLiked ? '❤️ ' : '🤍'}
+              </button>
             </div>
-            <button className="btn-buy">Buy it Now</button>
+            <button
+              className="btn-buy"
+              onClick={() => {
+                localStorage.setItem('checkoutItem', JSON.stringify(productData));
+                localStorage.setItem('checkoutMode', 'buyNow');
+                window.location.href = '/checkout';
+              }}
+            >
+              Buy it Now
+            </button>
           </div>
         </div>
       </div>
 
-      {/* Features */}
       <div className="feature-section">
         <div className="feature-item">
           <FaTruck className="feature-icon" />
@@ -104,27 +102,21 @@ const ProductPage = ({ onLike, likedProducts ,onAddToCart}) => {
         </div>
       </div>
 
-      {/* Related Products */}
       <h3 className="title2">Related Products</h3>
       <div className="product-grid">
-        {productList
-          .filter(
-            (p) =>
-              p.id !== productData.id &&
-              p.category === productData.category &&
-              p.subCategory === productData.subCategory &&
-              p.cato === productData.cato
-          )
-          .slice(0, 10)
-          .map((relatedProduct) => (
-            <ProductCard
-              key={relatedProduct.id}
-              product={relatedProduct}
-              onLike={onLike}
-              likedProducts={likedProducts}
-              
-            />
-          ))}
+        {productList.filter(
+          (p) => p.id !== productData.id &&
+            p.category === productData.category &&
+            p.subCategory === productData.subCategory &&
+            p.cato === productData.cato
+        ).slice(0, 10).map((relatedProduct) => (
+          <ProductCard
+            key={relatedProduct.id}
+            product={relatedProduct}
+            onLike={onLike}
+            likedProducts={likedProducts}
+          />
+        ))}
       </div>
     </div>
   );

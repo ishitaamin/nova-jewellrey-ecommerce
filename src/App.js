@@ -41,7 +41,10 @@ function App() {
   };
 
 // Cart State
-const [cart, setCart] = useState([]);
+const [cart, setCart] = useState(() => {
+  const storedCart = localStorage.getItem("cart");
+  return storedCart ? JSON.parse(storedCart) : [];
+});
 
 // Load cart from localStorage on first render
 useEffect(() => {
@@ -69,6 +72,13 @@ const handleRemoveFromCart = (id) => {
   setCart((prevCart) => prevCart.filter((item) => item.id !== id));
 };
 
+const handleClearCart = () => {
+  setCart([]);
+  localStorage.removeItem('cart');
+};
+
+
+
 
 
   const AppContent = () => {
@@ -95,8 +105,10 @@ const handleRemoveFromCart = (id) => {
           <Route path="/rings" element={<Ring likedProducts={likedProducts}onLike={handleLike}/>} />
           <Route path="/earrings" element={<Earring likedProducts={likedProducts}onLike={handleLike}/>} />
           <Route path="/product/:productId" element={<ProductPage likedProducts={likedProducts}onLike={handleLike} onAddToCart={handleAddToCart} />} />
-          <Route path="/cart" element={<Cart cartItems={cart} onRemoveFromCart={handleRemoveFromCart}/>}/>
-          <Route path="/checkout" element={<Checkout cart={cart} onClearCart={() => setCart([])} />} />
+          <Route path="/cart" element={<Cart cartItems={cart} onRemoveFromCart={handleRemoveFromCart} />} />
+          <Route path="/checkout" element={<Checkout cart={cart} onClearCart={handleClearCart} />} />
+
+
 
           <Route
             path="/like"

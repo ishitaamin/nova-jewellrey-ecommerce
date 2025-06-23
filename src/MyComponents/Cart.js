@@ -1,9 +1,8 @@
-
+// MyComponents/Cart.js
 import React from "react";
 import "./Cart.css";
-import { Link } from 'react-router-dom';
 
-const Cart = ({ cartItems, onRemoveFromCart }) => {
+const Cart = ({ cartItems =[], onRemoveFromCart }) => {
   const calculateTotal = () =>
     cartItems.reduce((acc, item) => acc + item.discountedPrice, 0);
 
@@ -39,9 +38,16 @@ const Cart = ({ cartItems, onRemoveFromCart }) => {
 
           <div className="cart-summary">
             <h3>Total: ₹{calculateTotal()}</h3>
-            <Link to="/checkout">
-  <button className="checkout-btn">Proceed to Checkout</button>
-</Link>
+            <button
+  className="checkout-btn"
+  onClick={() => {
+    localStorage.setItem('checkoutItems', JSON.stringify(cartItems));
+    localStorage.setItem('checkoutMode', 'cart');
+    window.location.href = '/checkout';
+  }}
+>
+  Proceed to Checkout
+</button>
           </div>
         </>
       )}

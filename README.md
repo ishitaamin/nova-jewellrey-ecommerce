@@ -13,13 +13,14 @@
 ## 🛠️ Tech Stack
 
 - **Frontend**: React.js, CSS3
-- **Design & Prototyping**: Figma, Canva
 - **Routing**: React Router DOM
-- **Data**: JSON-based product structure
+- **Design & Prototyping**: Figma, Canva
+- **Data Handling**: JSON-based product structure
 - **Other Skills Used**:
   - Image Processing
   - Component Reusability
-  - State Management (useState, props)
+  - useState, useEffect Hooks
+  - Local Storage Management
   - Responsive Layout Design
 
 ---
@@ -27,11 +28,15 @@
 ## 🚀 Features
 
 - 🛍️ Product grid with dynamic rendering from JSON  
-- 💖 Wishlist functionality (Heart icon toggle)  
-- 🖼️ Product detail page with image gallery & description  
-- 🔀 Smooth navigation using React Router  
-- 📱 Fully desktop layout 
-- 🧩 Modular components: `ProductCard`, `Navbar`, `ProductPage`, `LikePage`
+- 🔍 Individual product detail pages with image gallery & description  
+- 💖 Wishlist functionality with red/white heart toggle  
+- 🛒 Cart page with full product summary and quantity tracking  
+- 🛍️ "Buy Now" functionality for direct single-product checkout  
+- 💸 Checkout page with user form and real-time item summary  
+- 🧹 Cart/Wishlist persists via localStorage  
+- 🔁 Seamless navigation using React Router  
+- 📱 Fully responsive and optimized for all screens  
+- 🧩 Clean, modular components for scalability  
 
 ---
 ## 🙋‍♀️ Author
@@ -48,3 +53,7 @@
 </table>
 
 
+
+## 💡 Inspiration
+
+This project was built to deepen my understanding of React.js and enhance my frontend development skills. It helped me explore concepts like component-based architecture, state management, routing, and user interaction in a real-world e-commerce scenario.
