@@ -1,16 +1,26 @@
 .like-page {
-    padding: 2rem;
-  }
-  
-  .like-heading {
-    font-size: 2rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
-  }
-  
-  .product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-  }
-  
+  padding: 3rem 2rem;
+  background-color: #fffafc;
+  min-height: 100vh;
+}
+
+.like-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.like-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.like-empty {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.2rem;
+  color: #888;
+}

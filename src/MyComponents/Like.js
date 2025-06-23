@@ -6,8 +6,9 @@ const Like = ({ likedProducts, onLike }) => {
   return (
     <div className="like-page">
       <h2 className="like-heading">Your Wishlist ❤️</h2>
+
       {likedProducts.length > 0 ? (
-        <div className="product-grid">
+        <div className="like-grid">
           {likedProducts.map((product) => (
             <ProductCard
               key={product.id}
@@ -18,9 +19,9 @@ const Like = ({ likedProducts, onLike }) => {
           ))}
         </div>
       ) : (
-        <p style={{ textAlign: "center", marginTop: "2rem" }}>
-          You haven't liked any products yet.
-        </p>
+        <div className="like-empty">
+          <p>You haven't liked any products yet.</p>
+        </div>
       )}
     </div>
   );

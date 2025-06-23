@@ -7,7 +7,7 @@ import { FaTruck, FaGem, FaUndoAlt } from 'react-icons/fa'
 
 const braceletFilters = ["All", "Pendant", "Pearl", "Statement", "Initial", "Emerald"];
 
-const Bracelet = () => {
+const Bracelet = (onLike, likedProducts) => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -51,7 +51,12 @@ const Bracelet = () => {
       {/* Product Grid */}
       <div className="product-grid">
         {filteredProducts.map((product) => (
-          <ProductCard key={product.id} product={product} onLike={handleLike} />
+          <ProductCard
+          key={product.id}
+          product={product}
+          onLike={onLike}
+          likedProducts={likedProducts}
+        />
         ))}
       </div>
 

@@ -3,7 +3,8 @@ import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./ProductCard.css";
 
-const ProductCard = ({ product, onLike }) => {
+const ProductCard = ({ product, onLike ,likedProducts}) => {
+  const isLiked = likedProducts?.some((p) => p.id === product.id); 
   return (
     <div className="product-card">
       {/* Wrap image and name in Link */}
@@ -30,7 +31,7 @@ const ProductCard = ({ product, onLike }) => {
           onClick={() => onLike(product)}
           aria-label="Wishlist"
         >
-          <FaHeart className="icon-h" />
+          <FaHeart className={`icon-h ${isLiked ? 'liked' : ''}`} />
         </button>
       </div>
     </div>

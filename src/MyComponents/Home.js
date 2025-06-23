@@ -30,7 +30,7 @@ const imagesWithDetails = [
     { src: ififth, name: "Earrings", link: "/earrings" },
 ];
 
-const Home = () => {
+const Home = ({onLike,likedProducts}) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [dateNightProducts, setDateNightProducts] = useState([]);
   const [officewearProducts, setOfficewearProducts] = useState([]);
@@ -100,21 +100,39 @@ const Home = () => {
       <h3 className="title2">Date Night Collection</h3>
 <div className="product-grid">
   {dateNightProducts.map((product) => (
-    <ProductCard key={product.id} product={product} />
+    <ProductCard
+  key={product.id}
+  product={product}
+  onLike={onLike}
+  likedProducts={likedProducts}
+/>
+
   ))}
 </div>
 
 <h3 className="title2">Office Wear Collection</h3>
 <div className="product-grid">
   {officewearProducts.map((product) => (
-    <ProductCard key={product.id} product={product} />
+    <ProductCard
+  key={product.id}
+  product={product}
+  onLike={onLike}
+  likedProducts={likedProducts}
+/>
+
   ))}
 </div>
 
 <h3 className="title2">Coffee Run  Collection</h3>
 <div className="product-grid">
   {coffeerunProducts.map((product) => (
-    <ProductCard key={product.id} product={product} />
+    <ProductCard
+  key={product.id}
+  product={product}
+  onLike={onLike}
+  likedProducts={likedProducts}
+/>
+
   ))}
 </div>
 
