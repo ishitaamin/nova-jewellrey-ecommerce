@@ -3,14 +3,15 @@ import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./ProductCard.css";
 
-const ProductCard = ({ product, onLike ,likedProducts}) => {
-  const isLiked = likedProducts?.some((p) => p.id === product.id); 
+const ProductCard = ({ product, onLike, likedProducts }) => {
+  const isLiked = likedProducts?.some((p) => p.id === product.id);
+
   return (
     <div className="product-card">
       {/* Wrap image and name in Link */}
       <Link to={`/product/${product.id}`} className="product-link">
         <img
-          src={require(`./images/${product.image}`)}
+          src={`/images/${product.image}`} // ✅ Loads from public/images
           alt={product.name}
           className="product-image"
         />

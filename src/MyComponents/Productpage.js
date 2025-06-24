@@ -1,47 +1,71 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import productList from "./products.json";
+import axios from 'axios';
 import "./ProductPage.css";
 import ProductCard from "./ProductCard";
 import { FaTruck, FaGem, FaUndoAlt } from 'react-icons/fa';
 
 const ProductPage = ({ onLike, likedProducts, onAddToCart }) => {
   const { productId } = useParams();
-  const productData = productList.find((p) => p.id === Number(productId));
-  const isLiked = likedProducts?.some((p) => p.id === productData.id);
+  const [productData, setProductData] = useState(null);
   const [selectedImage, setSelectedImage] = useState("");
+  const [allProducts, setAllProducts] = useState([]);
+
+  const isLiked = likedProducts?.some((p) => p._id === productData?._id);
 
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   useEffect(() => {
-    if (productData) setSelectedImage(productData.image);
-  }, [productData]);
+    const fetchData = async () => {
+      try {
+        const res = await axios.get('http://localhost:4000/api/products');
+        const all = res.data;
+        const single = all.find(p => p._id === productId || p.id === Number(productId)); // handle _id (Mongo) or id (local)
+        setProductData(single);
+        setAllProducts(all);
+        if (single) setSelectedImage(single.image);
+      } catch (err) {
+        console.error("❌ Error loading product:", err);
+      }
+    };
+
+    fetchData();
+  }, [productId]);
 
   if (!productData) return <div>Product not found.</div>;
+
+  const related = allProducts.filter(
+    (p) =>
+      (p._id || p.id) !== (productData._id || productData.id) &&
+      p.category === productData.category &&
+      p.subcategory === productData.subcategory &&
+      p.cato === productData.cato
+  ).slice(0, 10);
 
   return (
     <div>
       <div className="product-page">
+        {/* Gallery */}
         <div className="product-gallery">
           <div className="thumbnails">
-            {[...productData.images, productData.image].map((img, index) => (
+            {[...(productData.images || []), productData.image].map((img, index) => (
               <img
                 key={index}
-                src={require(`./images/${img}`)}
+                src={`/images/${img}`} // from public folder
                 alt={`thumb-${index}`}
                 onClick={() => setSelectedImage(img)}
                 className={`thumbnail ${selectedImage === img ? "active" : ""}`}
               />
             ))}
           </div>
-
           <div className="main-image">
-            {selectedImage && <img src={require(`./images/${selectedImage}`)} alt="main" />}
+            {selectedImage && <img src={`/images/${selectedImage}`} alt="main" />}
           </div>
         </div>
 
+        {/* Info */}
         <div className="product-info">
           <h2>{productData.name}</h2>
           <div className="pricing">
@@ -55,11 +79,12 @@ const ProductPage = ({ onLike, likedProducts, onAddToCart }) => {
           <p className="product-description">{productData.description}</p>
 
           <ul className="product-details">
-            {productData.details.map((detail, index) => (
+            {(productData.details || []).map((detail, index) => (
               <li key={index}>{detail}</li>
             ))}
           </ul>
 
+          {/* Buttons */}
           <div className="buttons">
             <div className="btn-row">
               <button className="btn-cart" onClick={() => onAddToCart(productData)}>Add to Cart</button>
@@ -67,7 +92,7 @@ const ProductPage = ({ onLike, likedProducts, onAddToCart }) => {
                 className={`btn-wishlist ${isLiked ? 'liked' : ''}`}
                 onClick={() => onLike(productData)}
               >
-                {isLiked ? '❤️ ' : '🤍'}
+                {isLiked ? '❤️' : '🤍'}
               </button>
             </div>
             <button
@@ -84,6 +109,7 @@ const ProductPage = ({ onLike, likedProducts, onAddToCart }) => {
         </div>
       </div>
 
+      {/* Features */}
       <div className="feature-section">
         <div className="feature-item">
           <FaTruck className="feature-icon" />
@@ -102,17 +128,13 @@ const ProductPage = ({ onLike, likedProducts, onAddToCart }) => {
         </div>
       </div>
 
+      {/* Related */}
       <h3 className="title2">Related Products</h3>
       <div className="product-grid">
-        {productList.filter(
-          (p) => p.id !== productData.id &&
-            p.category === productData.category &&
-            p.subCategory === productData.subCategory &&
-            p.cato === productData.cato
-        ).slice(0, 10).map((relatedProduct) => (
+        {related.map((product) => (
           <ProductCard
-            key={relatedProduct.id}
-            product={relatedProduct}
+            key={product._id || product.id}
+            product={product}
             onLike={onLike}
             likedProducts={likedProducts}
           />

@@ -17,11 +17,11 @@ const Cart = ({ cartItems =[], onRemoveFromCart }) => {
           <div className="cart-items">
             {cartItems.map((item) => (
               <div className="cart-item" key={item.id}>
-                <img
-                  src={require(`./images/${item.image}`)}
-                  alt={item.name}
-                  className="cart-item-img"
-                />
+               <img
+  src={`/images/${item.image}`}
+  alt={item.name}
+  className="cart-item-img"
+/>
                 <div className="cart-item-details">
                   <h4>{item.name}</h4>
                   <p>₹{item.discountedPrice}</p>

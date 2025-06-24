@@ -2,33 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import ProductCard from './ProductCard'; // Ensure this component is created
-import productsData from './products.json'; // Import your JSON data
-import first from './images/first.jpg';
-import second from './images/second.jpg';
-import third from './images/third.jpg';
-import ithird from './images/ithird.png'; 
-import ifourth from './images/ifourth.png'; 
-import ifirst from './images/ifirst.png';
-import isecond from './images/isecond.png';
-import ififth from './images/ififth.png';
-import celeb1 from './images/c1.jpg';
-import celeb2 from './images/c2.jpg';
-import celeb3 from './images/c3.jpg';
-import celebi1 from './images/i1.jpg';
-import celebi2 from './images/i2.jpg';
-import celebi3 from './images/i3.jpg';
-import celebi4 from './images/i4.jpg';
-import celebi5 from './images/i5.jpg';
-import celebi6 from './images/i6.jpg';
+import axios from 'axios'; // Import your JSON data
 
-const images = [first, second, third]; // Array of images for the slideshow
+
+const images = ["/images/first.jpg", "/images/second.jpg", "/images/third.jpg"];
 const imagesWithDetails = [
-    { src: ifirst, name: "Bracelet", link: "/bracelet" },
-    { src: isecond, name: "Mangalsutra", link: "/mangalsutra" },
-    { src: ithird, name: "Necklace", link: "/necklace" },
-    { src: ifourth, name: "Rings", link: "/rings" },
-    { src: ififth, name: "Earrings", link: "/earrings" },
+  { src: "/images/ifirst.png", name: "Bracelet", link: "/bracelet" },
+  { src: "/images/isecond.png", name: "Mangalsutra", link: "/mangalsutra" },
+  { src: "/images/ithird.png", name: "Necklace", link: "/necklace" },
+  { src: "/images/ifourth.png", name: "Rings", link: "/rings" },
+  { src: "/images/ififth.png", name: "Earrings", link: "/earrings" },
 ];
+
 
 const Home = ({onLike,likedProducts}) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -47,25 +32,38 @@ const Home = ({onLike,likedProducts}) => {
 
   // Filter products by subcategory
   useEffect(() => {
-    const filteredProducts = productsData.filter(
-      (product) => product.subcategory === "Date Night"
-    );
-    setDateNightProducts(filteredProducts);
+    const fetchProducts = async () => {
+      try {
+        const res = await axios.get('http://localhost:4000/api/products');
+        const allProducts = res.data;
+  
+        console.log("🧪 All subcategories:", allProducts.map(p => p.subcategory));
+  
+        setDateNightProducts(
+          allProducts.filter(
+            (product) => product.subcategory?.toLowerCase() === "date night"
+          )
+        );
+        setOfficewearProducts(
+          allProducts.filter(
+            (product) => product.subcategory?.toLowerCase() === "office wear"
+          )
+        );
+        setCoffeerunProducts(
+          allProducts.filter(
+            (product) => product.subcategory?.toLowerCase() === "coffee run"
+          )
+        );
+      } catch (err) {
+        console.error("❌ Error fetching products:", err);
+      }
+    };
+  
+    fetchProducts();
   }, []);
+  
 
-  useEffect(() => {
-    const filteredProducts = productsData.filter(
-      (product) => product.subcategory === "Office Wear"
-    );
-    setOfficewearProducts(filteredProducts);
-  }, []);
 
-  useEffect(() => {
-    const filteredProducts = productsData.filter(
-      (product) => product.subcategory === "Coffee Run"
-    );
-    setCoffeerunProducts(filteredProducts);
-  }, []);
   return (
     <div>
       {/* Slideshow Section */}
@@ -138,25 +136,25 @@ const Home = ({onLike,likedProducts}) => {
 
 
       <hr className="br" />
-      <img className="img-con" src={second} alt='image'/>
+      <img className="img-con" src={'/images/second.jpg'} alt='image'/>
       <hr className="br" />
 
       <h3 className="title">CELEB PICKS</h3>
         <div className="container box2">
-            <img className="box" src={celeb2}/>
-            <img className="box" src={celeb1}/>
-            <img className="box" src={celeb3}/>
+            <img className="box" src={'/images/c2.jpg'}/>
+            <img className="box" src={'/images/c1.jpg'}/>
+            <img className="box" src={'/images/c3.jpg'}/>
             
            
             
         </div>
         <div className="container box3">
-            <img className="box4" src={celebi1}/>
-            <img className="box4" src={celebi2}/>
-            <img className="box4" src={celebi3}/>
-            <img className="box4" src={celebi4}/>
-            <img className="box4" src={celebi5}/>
-            <img className="box4" src={celebi6}/>
+            <img className="box4" src={'/images/i1.jpg'}/>
+            <img className="box4" src={'/images/i2.jpg'}/>
+            <img className="box4" src={'/images/i3.jpg'}/>
+            <img className="box4" src={'/images/i4.jpg'}/>
+            <img className="box4" src={'/images/i5.jpg'}/>
+            <img className="box4" src={'/images/i6.jpg'}/>
             
            
             
