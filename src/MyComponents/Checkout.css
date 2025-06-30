@@ -96,3 +96,93 @@
     font-weight: 500;
   }
   
+  .checkout-page {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .checkout-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .form-section {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .preview-section {
+    flex: 1;
+    min-width: 300px;
+    background: #f7f7f7;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .checkout-form input {
+    display: block;
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .checkout-summary {
+    margin-top: 1rem;
+  }
+  
+  .place-order-btn {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .checkout-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .checkout-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .address-selection ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .address-selection li {
+    margin: 0.5rem 0;
+  }
+  
+
+  .success-banner {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border-left: 6px solid #3c763d;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    font-weight: bold;
+    animation: fadeOut 2.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeOut {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; display: none; }
+  }
+  

@@ -20,7 +20,9 @@ const Like = ({ likedProducts, onLike }) => {
         </div>
       ) : (
         <div className="like-empty">
-          <p>You haven't liked any products yet.</p>
+          <img src="/images/empty-wishlist.svg" alt="Empty Wishlist" />
+          <p>No favourites yet</p>
+          <a href="/" className="explore-btn">Browse Products</a>
         </div>
       )}
     </div>

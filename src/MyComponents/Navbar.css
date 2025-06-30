@@ -52,3 +52,48 @@
     }
   }
   
+
+  .profile-icon-wrapper {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .profile-dropdown {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+    border-radius: 6px;
+    width: 160px;
+    z-index: 1000;
+    padding: 10px;
+  }
+  
+  .profile-dropdown a,
+  .profile-dropdown button {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333;
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .profile-dropdown a:hover,
+  .profile-dropdown button:hover {
+    background: #f5f5f5;
+  }
+  
+  .dropdown-name {
+    font-weight: bold;
+    margin-bottom: 8px;
+    padding: 0 12px;
+    color: #444;
+  }
+  

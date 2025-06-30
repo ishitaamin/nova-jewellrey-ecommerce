@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams ,useNavigate} from "react-router-dom";
 import axios from 'axios';
 import "./ProductPage.css";
 import ProductCard from "./ProductCard";
@@ -10,6 +10,7 @@ const ProductPage = ({ onLike, likedProducts, onAddToCart }) => {
   const [productData, setProductData] = useState(null);
   const [selectedImage, setSelectedImage] = useState("");
   const [allProducts, setAllProducts] = useState([]);
+  const navigate = useNavigate(); 
 
   const isLiked = likedProducts?.some((p) => p._id === productData?._id);
 
@@ -33,6 +34,30 @@ const ProductPage = ({ onLike, likedProducts, onAddToCart }) => {
 
     fetchData();
   }, [productId]);
+  const handleAddToCart = async (product) => {
+    const token = localStorage.getItem("token");
+    if (!token) {
+      alert("Please login to add to cart.");
+      navigate("/login");
+      return;
+    }
+
+    try {
+      await axios.post(
+        "http://localhost:4000/api/users/cart",
+        { productId: product._id || product.id },
+        {
+          headers: {
+            Authorization: `Bearer ${token}`,
+          },
+        }
+      );
+      alert("✅ Added to cart!");
+    } catch (err) {
+      console.error("Cart error:", err);
+      alert("❌ Failed to add to cart.");
+    }
+  };
 
   if (!productData) return <div>Product not found.</div>;
 
@@ -98,6 +123,12 @@ const ProductPage = ({ onLike, likedProducts, onAddToCart }) => {
             <button
               className="btn-buy"
               onClick={() => {
+                if (!localStorage.getItem('token')) {
+                  alert("Please login to proceed with buying.");
+                  window.location.href = '/login';
+                  return;
+                }
+              
                 localStorage.setItem('checkoutItem', JSON.stringify(productData));
                 localStorage.setItem('checkoutMode', 'buyNow');
                 window.location.href = '/checkout';
