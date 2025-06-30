@@ -1,6 +1,6 @@
 # 💎 NOVA – Jewellery E-Commerce Web App
 
-**NOVA** is a responsive single-page e-commerce web application built using **React.js**, designed to showcase jewellery products dynamically. It allows users to browse, view detailed product information, and manage a personalized wishlist. The project emphasizes component reuse, application state management, and clean UI/UX design.
+**NOVA** is a  multi-page e-commerce web application built using **React.js**, designed to showcase jewellery products dynamically. It allows users to browse, view detailed product information, and manage a personalized wishlist. The project emphasizes component reuse, application state management, and clean UI/UX design.
 
 ---
 
@@ -52,7 +52,7 @@ This project was built to deepen my understanding of React.js and enhance my fro
       <strong>Ishita Amin</strong><br/>
       👩‍💻 B.Tech CSE @ Navrachana University<br/>
       📬 <a href="mailto:aminishita30@gmail.com">aminishita30@gmail.com</a><br/>
-      🔗 <a href="[https://linkedin.com/in/ishitaamin](https://www.linkedin.com/in/ishita-amin-841726253)" target="_blank">LinkedIn</a><br/>
+      🔗 <a href="https://www.linkedin.com/in/ishita-amin-841726253" target="_blank">LinkedIn</a><br/>
     </td>
   </tr>
 </table>
